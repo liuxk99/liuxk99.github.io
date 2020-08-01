@@ -1,3 +1,6 @@
+---
+lang: zh
+---
 # system_server视角
 ## logcat
 perf-cb生效后，这些日志成输出到logcat，他们记录关键的调用如：Activity.callActivityOnStop，并且包括详细的参数。
