@@ -3,10 +3,10 @@ layout: page
 title: Info
 permalink: /friends/
 description: "Android官方源码、学习资料、技术博客"
-header-img: "img/nav/nav-about.jpg"
+header-img: "img/nav/nav-friends.jpg"
 ---
 
-> 跟大家分享一些常用的Android相关的网址资料
+> 以下内容`转载`于[Gityuan的学习资料](http://gityuan.com/friends/)
 
 ### 一、Android系统
 
@@ -63,4 +63,4 @@ header-img: "img/nav/nav-about.jpg"
 |[androidblog.cn](http://androidblog.cn/)|Jomeslu维护的Android博客周刊|
 
 
-最后，可以看看博主写的《[如何自学Android](http://gityuan.com/2016/04/24/how-to-study-android/)》。
+最后，可以看看Gityuan写的《[如何自学Android](http://gityuan.com/2016/04/24/how-to-study-android/)》。
