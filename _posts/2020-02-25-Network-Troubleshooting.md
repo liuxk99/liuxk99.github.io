@@ -6,6 +6,7 @@ catalog:    true
 tags:
     - dig
     - DNS
+    - 开胃小菜
 ---
 
 ## 一、摘要
@@ -16,11 +17,13 @@ SocketTimeOutException Touble Shooting。
 
 ## 三、问题
 通过域名访问服务器超时，根据网络连接的原理。
+
 ### 3.1 原理
 1. DNS解析出IP地址；<br/>
 DNS的解析出来的IP地址是错误的。
 2. 建立与该IP地址的连接。<br/>
 连接超时或者错误。
+
 ### 3.2 原因
 1. DNS解析错误
 2. 连接IP地址超时<br/>
@@ -28,7 +31,7 @@ DNS的解析出来的IP地址是错误的。
 2.2. 防火墙阻断<br/>
 
 ## 四、基准
-### 4.1 正确的DNS解析结果。
+### 4.1 正确的DNS解析结果
 该结果来自于dig命令。
 ```
 $ dig tvmanager-scloud.cp21.ott.cibntv.net
@@ -75,6 +78,7 @@ thomas@XancL03:~$ adb connect 10.58.104.110
 * daemon started successfully
 connected to 10.58.104.110:5555
 ```
+
 #### 执行ping命令
 ```
 thomas@XancL03:~$ adb shell
@@ -137,5 +141,6 @@ C:\Users\thomas.XancL-NB\Desktop>tracert tvmanager-scloud.cp21.ott.cibntv.net
 跟踪完成。
 ```
 看数据报停在哪个网关(路由设备)。
+
 ### 上游网络
 如果已经出了局域网，请联系上游网络的管理员或者ISP来排查。
