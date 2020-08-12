@@ -1,0 +1,10 @@
+C:\Users\thomas\Desktop>gem sources --remove https://rubygems.org/
+source https://rubygems.org/ not present in cache
+
+C:\Users\thomas\Desktop>gem sources -a https://gems.ruby-china.com/
+source https://gems.ruby-china.com/ already present in the cache
+
+C:\Users\thomas\Desktop>gem sources -l
+*** CURRENT SOURCES ***
+
+https://gems.ruby-china.com/

@@ -1,0 +1,21 @@
+E:\cygwin64\home\thomas\projects\Me\liuxk99.github.io>jekyll serve --watch
+Configuration file: E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_config.yml
+       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.
+            Source: E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io
+       Destination: E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+    Liquid Warning: Liquid syntax error (line 40): Unexpected character { in "tag[1].size > {{site.featured-condition-size}}" in E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_layouts/page.html
+    Liquid Warning: Liquid syntax error (line 169): Unexpected character { in "tag[1].size > {{site.featured-condition-size}}" in E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_layouts/page.html
+    Liquid Warning: Liquid syntax error (line 40): Unexpected character { in "tag[1].size > {{site.featured-condition-size}}" in E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_layouts/page.html
+    Liquid Warning: Liquid syntax error (line 169): Unexpected character { in "tag[1].size > {{site.featured-condition-size}}" in E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_layouts/page.html
+    Liquid Warning: Liquid syntax error (line 40): Unexpected character { in "tag[1].size > {{site.featured-condition-size}}" in E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_layouts/page.html
+    Liquid Warning: Liquid syntax error (line 169): Unexpected character { in "tag[1].size > {{site.featured-condition-size}}" in E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_layouts/page.html
+    Liquid Warning: Liquid syntax error (line 40): Unexpected character { in "tag[1].size > {{site.featured-condition-size}}" in E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_layouts/page.html
+    Liquid Warning: Liquid syntax error (line 169): Unexpected character { in "tag[1].size > {{site.featured-condition-size}}" in E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io/_layouts/page.html
+                    done in 2.567 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'E:/cygwin64/home/thomas/projects/Me/liuxk99.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
