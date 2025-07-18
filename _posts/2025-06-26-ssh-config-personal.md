@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "使用git管理~/.ssh"
+title:  "多端配置ssh的最佳实践"
 date:   2025-06-26 10:41:00
 catalog:    true
 tags:
+    - 最佳实践
     - 公钥、私钥、密钥对
     - ssh
     - git
@@ -171,4 +172,20 @@ real	1m18.099s
 user	0m0.044s
 sys	0m0.014s
 bash -x ssh-config-test-personal.sh  0.13s user 0.04s system 0% cpu 1:21.75 total
+```
+## 6、重要文件汇总
+```
+ls -l personal* company* config* *.sh hooks_post-checkout
+-rw-------@ 1 thomas  staff  1675  7 19 07:24 company
+-rw-------@ 1 thomas  staff   400  7 19 07:24 company.pub
+lrwxr-xr-x@ 1 thomas  staff    12  7 19 07:24 config -> config.macOS
+-rw-------@ 1 thomas  staff  3362  7 19 07:24 config.cygwin
+-rw-------@ 1 thomas  staff  2261  7 19 07:24 config.linux
+-rw-------@ 1 thomas  staff  2721  7 19 07:24 config.macOS
+-rwxr-xr-x@ 1 thomas  staff   699  7 19 07:24 hooks_post-checkout
+-rwxr-xr-x@ 1 thomas  staff  3698  7 19 07:24 ignite.sh
+-rw-------@ 1 thomas  staff  1679  7 19 07:24 personal
+-rw-------@ 1 thomas  staff   399  7 19 07:24 personal.pub
+-rwxr-xr-x@ 1 thomas  staff   293  7 19 07:24 ssh-config-test-company.sh
+-rwxr-xr-x@ 1 thomas  staff   207  7 19 07:24 ssh-config-test-personal.sh
 ```
